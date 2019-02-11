@@ -5,4 +5,6 @@ murders %>%
   ggplot(aes(abb, rate)) + 
   geom_bar(width = 0.5, stat = "identity", color = "black") + 
   coord_flip()
-ggsave("fig/barplot.png")
+ggsave("figs/barplot.png")
+
+lll
